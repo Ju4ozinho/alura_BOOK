@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -39,11 +40,41 @@
         </li>
       </ul>
       <img src="Logo.svg" alt="Logo da Alurabooks" class="container__imagem">
+      <h1 class="container__titulo"><b class="container__titulo--negrito">Alura</b>Books</h1>
+
+      <ul class="opções">
+        <input type="checkbox" id="opções-menu" class="opções__botão" />
+        <label for="opções-menu">
+          <li class="opções__item">Categorias</li>
+        </label>
+
+        <ul class="lista-menu">
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Programação</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Front-end</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Infraestrutura</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Business</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Design & UX</a>
+          </li>
+        </ul>
+        <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+        <li class="opções__item"><a href="#" class="opções__link">Minha estante</a></li>
+      </ul>
+
     </div>
     <div class="container">
-      <a href="#"><img src="Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
+      <a href="#"><img src="Favoritos.svg" alt="Meus favoritos"
+          class="container__imagem container__imagem-transparente"></a>
       <a href="#"><img src="Compras.svg" alt="Carrinhos de compras" class="container__imagem"></a>
-      <a href="#"><img src="Usuario.png" alt="Meu perfil" class="container__imagem"></a>
+      <a href="#"><img src="Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
     </div>
   </header>
 
@@ -60,17 +91,17 @@
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
         <!-- Slides -->
-        <div class="swiper-slide"><img src="ApacheKafka.png"
+        <div class="swiper-slide"><img src="Apachekafka.svg"
             alt="Livro sobre apache kafka e spring boot da alura books"></div>
-        <div class="swiper-slide"><img src="Liderança.png"
+        <div class="swiper-slide"><img src="Liderança.svg"
             alt="Livro sobre liderança em design design da alura books"></div>
-        <div class="swiper-slide"><img src="Javascript.png" alt="Livro sobre javascript assertivo da alura books">
+        <div class="swiper-slide"><img src="Javascript.svg" alt="Livro sobre javascript assertivo da alura books">
         </div>
         <div class="swiper-slide">
-          <img src="Guia Front-end.png" alt="Livro Guia front end" />
+          <img src="Guia Front-end.svg" alt="Livro Guia front end" />
         </div>
         <div class="swiper-slide">
-          <img src="Portugol.png" alt="Livro sobre portugol" />
+          <img src="Portugol.svg" alt="Livro sobre portugol" />
         </div>
         <div class="swiper-slide">
           <img src="Acessibilidade.svg" alt="Livro sobre acessibilidade" />
@@ -92,7 +123,7 @@
             Construindo uma aplicação integrada com a plataforma do Google.
           </p>
         </div>
-        <img src="Angular.png" class="descrição__imagem" />
+        <img src="Angular.svg" class="descrição__imagem" />
       </div>
       <div class="card__botões">
         <ul class="botões">
@@ -118,14 +149,14 @@
 
       <div class="swiper-wrapper">
         <!-- Slides -->
-        <div class="swiper-slide"><img src="ApacheKafka.png"
+        <div class="swiper-slide"><img src="ApacheKafka.svg"
             alt="Livro sobre apache kafka e spring boot da alura books"></div>
         <div class="swiper-slide"><img src="Liderança.svg" alt="Livro sobre liderança em design da alura books">
         </div>
-        <div class="swiper-slide"><img src="Javascript.png" alt="Livro sobre javascript assertivo da alurabooks">
+        <div class="swiper-slide"><img src="Javascript.svg" alt="Livro sobre javascript assertivo da alurabooks">
         </div>
-        <div class="swiper-slide"><img src="Guia Front-end.png" alt="Livro Guia front end"></div>
-        <div class="swiper-slide"><img src="Portugol.png" alt="Livro sobre portugol"></div>
+        <div class="swiper-slide"><img src="Guia Front-end.svg" alt="Livro Guia front end"></div>
+        <div class="swiper-slide"><img src="Portugol.svg" alt="Livro sobre portugol"></div>
         <div class="swiper-slide"><img src="Acessibilidade.svg" alt="livro sobre acessibilidade"></div>
       </div>
 
@@ -146,15 +177,15 @@
           </p>
         </div>
         <!-- 2º coluna -->
-        <img src="Escritora .png" class="descrição__imagem">
+        <img src="Escritora.png" class="descrição__imagem">
       </div>
 
       <!-- 2º linha -->
       <div class="card__botões">
         <!-- 1º coluna -->
         <ul class="botões">
-          <li class="botões__item"><img src="Favoritos.svg" alt="Favoritar livro"></li>
-          <li class="botões__item"><img src="Compras.svg" alt="Adicionar no carrinho de compras"></li>
+          <li class="botões__item"><img src="Favoritos.png" alt="Favoritar livro"></li>
+          <li class="botões__item"><img src="Compras.png" alt="Adicionar no carrinho de compras"></li>
         </ul>
         <!-- 2º coluna -->
         <a href="#" class="botões__ancora">Saiba mais</a>
@@ -198,7 +229,7 @@
     <p class="contato__texto">
       Atualizações de e-books, novos livros, promoções e outros.
     </p>
-    <input type="email" placeholder="Cadastre seu e-mail" class="contato__email" />
+    <input type="email" placeholder="        Cadastre seu e-mail" class="contato__email" />
   </section>
 
   <hr />
